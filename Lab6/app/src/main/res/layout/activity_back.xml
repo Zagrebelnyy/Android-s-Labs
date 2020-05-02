@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:orientation="vertical"
+    tools:context=".BackActivity">
+
+    <EditText
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="50dp"
+        android:hint="Название товара"
+        android:id="@+id/nameInput"
+        />
+    <EditText
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="50dp"
+        android:hint="Цена товара"
+        android:id="@+id/priceInput"
+        />
+    <EditText
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="50dp"
+        android:id="@+id/countInput"
+        android:hint="Количество"
+        />
+    <Button
+        android:layout_margin="10dp"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:id="@+id/btnAdd"
+        android:text="Сохранить"
+        android:onClick="addNewProduct"
+        />
+
+</LinearLayout>
