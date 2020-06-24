@@ -51,7 +51,7 @@ public class ResultActivity extends FragmentActivity implements OnMapReadyCallba
         url = "https://maps.googleapis.com/maps/api/directions/json?" +
                 "origin=" + departureLatitude + ",%" +  departureLongitude + "&" +
                 "destination=" + arrivalLatitude + ",%" +  arrivalLongitude + "&" +
-                "&key=AIzaSyBhcJWtVArmHfexhCbfEEznRSSv6me29sc";
+                "&key=";
         JSONDownload jsonDownload = new JSONDownload();
         jsonDownload.execute(url);
 
